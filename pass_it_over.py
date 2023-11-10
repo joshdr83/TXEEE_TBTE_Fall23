@@ -1,3 +1,5 @@
-print('Hello World!')
+import sys
 
-print("No Thanks!")
+var1 = sys.argv[1]
+
+print('Hello %s!'% (var1))
